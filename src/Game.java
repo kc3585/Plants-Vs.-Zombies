@@ -50,8 +50,13 @@ public class Game
     
     public Game()
     {
-        introSong = Applet.newAudioClip(this.getClass().getResource("music.wav"));
-        introSong.play();
+        try{
+            introSong = Applet.newAudioClip(this.getClass().getResource("music.wav"));
+            introSong.play();
+        }
+        catch (Exception e) {
+            
+        }
 
         try
         {
