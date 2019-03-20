@@ -5,6 +5,5 @@ This project involved students to create a side-scrolling game where objects fro
 
 Here's a walkthrough of implemented user stories:
 
+![](gamePlay.png)
 ![](plants.gif)
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
